@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "shield67")(type "KiCad")(uri "${KIPRJMOD}/lib/shield67.kicad_sym")(options "")(descr "Модулі щита 6-7"))
+)
