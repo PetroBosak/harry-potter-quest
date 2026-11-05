@@ -233,6 +233,8 @@ void drawLeds(uint32_t now) {
 
 // ---------------------------------------------------------------------
 void setup() {
+  pinMode(PIN_RF_TX, OUTPUT);       // FS1000A у J6 мовчить; поки працює завантажувач, може коротко передати
+  digitalWrite(PIN_RF_TX, LOW);
   Serial.begin(115200);
   motorBegin();                     // першим — щоб мотор точно стояв
   pinMode(PIN_BUTTON, INPUT_PULLUP);

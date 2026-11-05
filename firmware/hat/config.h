@@ -11,6 +11,7 @@
 #define PIN_LEDS2     7   // друга стрічка / «очі» (U5 → 330 Ом → J4 LED2)
 #define PIN_BUTTON    5   // кнопка (NO → GND, підтяжка 10 кОм до 3V3) — J3
 #define PIN_RF        6   // приймач 433 МГц SYN480R, DATA
+#define PIN_RF_TX    21   // J6: FS1000A TX. Прошивка тримає LOW, щоб передавач не глушив приймач
 #define PIN_I2S_BCLK  4   // MAX98357A BCLK
 #define PIN_I2S_LRC   3   // MAX98357A LRC
 #define PIN_I2S_DIN   1   // MAX98357A DIN
