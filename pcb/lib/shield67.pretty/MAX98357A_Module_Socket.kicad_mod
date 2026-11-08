@@ -4,7 +4,7 @@
 	(property "Value" "MAX98357A_Module_Socket" (at 7.62 19.2 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
 	(attr through_hole)
 	(fp_rect (start -1.280 -1.600) (end 16.520 17.800) (stroke (width 0.15) (type solid)) (fill no) (layer "F.SilkS"))
-	(fp_rect (start -1.530 -1.850) (end 16.770 18.050) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+	(fp_rect (start -1.200 -1.200) (end 16.440 1.200) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
 	(fp_rect (start -1.280 -1.600) (end 16.520 17.800) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
 	(fp_text user "MAX98357A" (at 7.620 9.000 0) (layer "F.SilkS") (effects (font (size 1.0 1.0) (thickness 0.150))))
 	(fp_text user "SPK" (at 7.620 16.200 0) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.120))))
